@@ -1,0 +1,17 @@
+# 配置服务端口
+server:
+  port: 8080
+
+spring:
+  servlet:
+    multipart:
+
+      enabled: false
+
+      max-file-size: 1GB
+
+      max-request-size: 10GB
+
+  redis:
+    host: 127.0.0.1
+    port: 6379
